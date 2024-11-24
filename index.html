@@ -11,6 +11,7 @@
      color: rgb(88, 10, 10);
      font-family: 'Lato', sans-serif;
      margin-left: 120px;
+     text-decoration: none;
     
      }
      .navigation a:hover{
@@ -21,6 +22,39 @@
         margin-top: 100px;
         margin-right: 200px;
      }
+     .carousel-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+     }
+    .slider{
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(to right, rgb(249, 191, 191), rgb(55, 55, 167));
+        border-radius: 30px;
+        text-align: center;
+    }
+    .footer_p{
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    .para{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 10px;
+    color: brown;
+    }
+    body{
+        font-family: 'Manjari', sans-serif;
+    }
     </style>
 </head>
 <body>
@@ -32,6 +66,22 @@
         <h3><a href="contact_us.html">Contact Us</a></h3>
         
     </div>
-    <img src="images/Esports.png" width="500px" height="300px">
+    <div class="carousel-container">
+        <img class="slider" src="images/Esports.png" width="500px" height="300px" alt="Slider 1">
+        <img class="slider" src="images/esports-1.jpg" width="500px" height="300px" alt="Slider 2">
+        <img class="slider" src="images/esports-2.jpg" width="500px" height="300px" alt="Slider 3">
+    </div>
+    <div class="para">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt culpa adipisci, magnam architecto consequatur iste quidem unde distinctio explicabo ratione magni, <mark>delectus repellat possimus maiores commodi aliquid sed animi! Fuga explicabo facilis itaque assumenda vel reprehenderit culpa animi, sed enim nulla repudiandae do</mark>lore blanditiis? Magnam non accusamus eum ratione consequatur voluptas provident ex temporibus at ea aperiam,<b>architecto aliquid! Minus quo et incidunt quia ex omnis sequi quisquam? Eos placeat,</b> minus cupiditate accusantium numquam quae exercitationem est enim rerum. Laudantium, earum! Vitae, nobis vel alias ipsum soluta minus placeat laborum numquam libero deserunt quo hic sequi ratione quae voluptate.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae odit officia alias iure voluptas, eligendi nemo eaque amet libero repellat, voluptatem esse facere placeat architecto ut maxime, expedita praesentium! Maxime cupiditate dolores expedita blanditiis nihil veniam natus a atque! Ipsum sunt <b>odit non quam sapiente. Accusantium perspiciatis vitae architecto aliquam quasi quas, distinctio ab molestias omnis excepturi cum. Distinctio ducimus recusandae atque laborum, ullam eveniet labore fuga! Rerum porro deserunt, vel excepturi rem unde voluptatibus quo quia, temporibus adipisci mollitia officia quas eos perferendis consequatur reiciendis incidunt, ipsam velit fugiat! Esse repudiandae iusto facilis omnis soluta maxime nisi quibusdam neque reiciendis veritatis nihil facere, expedita deleniti,</b> molestias quam consectetur impedit ex a earum autem eius eveniet aliquam exercitationem? Consequuntur, exercitationem. Non quisquam odio praesentium, <b>totam adipisci minus nobis veniam officiis quo molestiae nesciunt quis eius autem animi commodi nihil maiores blanditiis labore quibusdam cupiditate aliquam,</b> itaque doloribus sequi! Aperiam, obcaecati.</p>
+    </div>
+    <div class="footer">
+        <p class="footer_p">Contact  :   123456789111</p>
+        <p class="footer_p">Email ID  :   pulseplay@gmail.com</p>
+        <p class="footer_p">Instagram ID  :   pulseplay_bd</p>
+        <p class="footer_p">facebook ID  :   PulsePlay_Esports</p>
+        Website  :   <a href="https://www.esports.com/en">pulseplay-bd</a>
+    </div>
 </body>
 </html>
